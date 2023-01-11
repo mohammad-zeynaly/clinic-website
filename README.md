@@ -8,7 +8,7 @@
 ## tips
 
 * fully responsive for mobile, tablet, laptop and desktop
-* Multi page clinic site
+* Multi page clinic website
 
 ---
 ## web development technologies
