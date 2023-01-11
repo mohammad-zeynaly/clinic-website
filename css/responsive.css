@@ -1,0 +1,450 @@
+
+/* Project Responsive */
+
+@media screen and (max-width: 1200px) {
+
+    .container{
+        max-width: 960px;
+    }
+
+
+    /* Responsive Header */ 
+
+    .header-content-left__title {
+        font-size: 2.5rem;
+    }
+
+    .header-content-left-property__title {
+        font-size: 1.5rem;
+    }
+
+    .header-content-right__title {
+        font-size: 3rem;
+    }
+
+
+    /* Responsive About Us */ 
+
+    .about-content-right__title {
+        font-size: 2rem;
+    }
+    
+
+    /* Responsive services */ 
+
+    .services-item {
+         max-width: 29%;
+    }
+
+
+    /* Responsive Features */
+    .features-content-icons-desc__title {
+        font-size: 1rem;
+        font-weight: bold;
+        margin-top: 0.5rem;
+    }
+
+    .features-content-left__title {
+        font-size: 2rem;
+    }
+
+
+    /* Responsive Doctors */
+
+    .doctors-teams-item {
+        max-width: 22%;
+        margin: 0.7rem;
+    }
+
+    .doctors-description__title {
+        font-size: 2rem;
+    }
+
+    .doctors-teams-item-description__title {
+        font-size: 1.1rem;
+    }
+
+    .doctors-social__icon {
+        padding: 0.6rem;
+    }
+
+
+    /* Responsive Appointment */
+
+    .form-input {
+      width: 45%;
+      margin: 1rem 0;
+      margin-left: 1rem;
+    }
+
+    .form-comment{
+        width: 100%;
+    }
+
+    .form-btn {
+        width: 100%;
+    }
+
+    .Appointment-content-left__title{
+        font-size: 2rem;
+    }
+
+    /* Responsive Testimonial */
+    .testimonial-description__title{
+        font-size: 2rem;
+    }
+
+
+    /* Responsive page contact */
+    .contact-content-item-desc__text{
+        font-size: 1rem;
+    }
+
+    .contact-content-item-one{
+        padding: 2.3rem;
+    }
+
+}
+
+
+
+@media screen and (max-width: 992px) {
+
+    .container{
+        max-width: 720px;
+    }
+    
+
+    /* responsive nav-barTop */
+    .header-top {
+        display: none;
+    
+    }
+ 
+    /* responsive main NavBar */
+
+    .menu{
+        position: fixed;
+        top: 0;
+        left: -260px; /* 0 */
+        bottom: 0;
+        background-color: var(--color-white);
+        width:16rem;
+        flex-direction: column;
+        padding: 3rem 1rem;
+        transition: all .4s;
+        z-index: 99;
+        overflow-y: scroll;
+    }
+
+    .menu-show{
+        left: 0px; 
+    }
+
+    .navbar__btn{
+        display: block;
+        cursor: pointer;
+        z-index: 22;
+    }
+
+    .menu__item{
+        margin-bottom: 2rem;
+        font-size:1.2rem;
+    }
+
+    .menu__item-service{
+        margin-bottom: 0;
+    }
+
+    .menu__item-Appointment{
+        display: block;
+        margin-top: 2rem;
+        margin-bottom: 0;
+    }
+
+    .dropDown-menu{
+        display: none;
+    }
+
+    .menu__link-drop {
+        display: none;
+        
+    }
+
+    .menu__link{
+
+    }
+
+    .menu__btn{
+        display: none;
+    }
+
+
+    /* Responsive Header */ 
+    .header-content-wrapper{
+        flex-direction: column-reverse;
+    }
+
+    .header-content-right {
+        width: 100%;
+    }
+
+    .header-content-left{
+        width: 100%;
+        margin: 2.2rem 0;
+    }
+
+
+    .header-content-left__title {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .header-content-left-property__title {
+        font-size: 1.7rem;
+    }
+
+    .header-content-right__title {
+        font-size: 3rem;
+    }
+
+
+
+    /* Responsive About Us*/ 
+
+    .about-content{
+        flex-direction: column;
+    }
+
+    .about-content-left{
+        width: 100%;
+    }
+
+    .about-content-right{
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    .about-content-right-wrapper {
+        max-width: 100%;
+    }    
+
+
+    /* Responsive Services */ 
+    .services-item {
+        max-width: 47%;
+        margin:.7rem 0.6rem;
+    }
+
+        /* Responsive Features */
+    .features-content{
+        flex-direction: column;
+    }
+
+    .features-content-left{
+        width: 100%;
+        padding-top: 2.5rem;
+        padding-bottom: 1rem;
+    }
+    
+    .features-content-right{
+        width: 100%;
+    }
+
+    .features-content-icon-items {
+        justify-content: space-between;
+    }
+
+    
+    .features-content-left__text {
+        margin: 1.5rem 0;
+        width: 100%; 
+    }
+
+
+    /* Responsive Doctors */
+    .doctors-teams-item {
+        max-width: 46%;
+    }
+
+
+    /* Responsive Appointment */
+
+    .Appointment-content {
+        flex-direction: column;
+    }
+
+    .Appointment-content-left{
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .Appointment-content-right{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    /* Responsive Footer */
+    .footer-items{
+        flex-direction: column;
+    }
+
+    .footer-item {
+        margin-bottom: 2rem;
+    }
+
+
+
+     /* Responsive page contact */
+
+     .contact-content-row{
+        flex-direction: column;
+     }
+
+    .contact-content-item{
+        width: 100%;
+    }
+
+    .contact-content-item-one{
+        padding: 3rem;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+    .container{
+        max-width: 540px;
+    }
+
+
+    /* Responsive About Us */ 
+    .about-content-right__title {
+        font-size: 2rem;
+    }
+
+
+      /* Responsive Services */ 
+      .services-item {
+        max-width: 100%;
+        margin:.7rem;
+    }
+
+
+    .service__title {
+        font-size: 2rem;
+    }
+    
+
+        /* Responsive Features */
+    .features-content-left__title {
+        font-size: 1.7rem;
+    }
+
+
+    /* Responsive Doctors */
+    .doctors-teams-item {
+        max-width: 100%;
+    }
+
+    .doctors-description__title {
+        font-size: 1.7rem;
+    }
+
+
+    /* Responsive Appointment */
+    .Appointment-content-left__title{
+        font-size: 1.7rem;
+    }
+
+
+    /* Responsive Testimonial */
+    .testimonial-description__title{
+        font-size: 1.7rem;
+    }
+
+    .testimonial-arrow {
+        font-size: 40px;
+    }
+}
+
+
+@media screen and (max-width: 576px) {
+
+    .container{
+        max-width: 100%;
+    }
+
+
+    /* Responsive Header */
+
+    .header-content-left-props{
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    
+    .header-content-left-property {
+        padding-right: 0; 
+        margin: 1.5rem auto;
+
+    }
+
+
+    .header-content-left__title {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .header-content-left-property__title {
+        font-size: 1.4rem;
+    }
+
+    .header-content-right__title {
+        font-size: 2rem;
+    }
+
+
+    /* Responsive About Us */ 
+    .about-content-right__title {
+        font-size: 1.7rem;
+    }
+    
+
+
+    /* Responsive Services */ 
+    .service__title {
+        font-size: 1.7rem;
+    }
+
+
+    /* Responsive Appointment */
+    .form-input {
+        width: 100%;
+    }
+
+    /* Responsive Testimonial */
+    .testimonial-arrow {
+        font-size: 35px;
+    }
+
+
+    /* Responsive Page About Us */
+    .about-header__title{
+        font-size: 2rem
+    }
+
+}
+
+
+
+@media screen and (max-width: 380px){
+
+        /* Responsive Features */
+    .features-content-icon-items {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
