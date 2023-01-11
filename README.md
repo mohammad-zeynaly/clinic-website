@@ -2,13 +2,13 @@
 ---
 
 # clinic.com/Eng page front-end
-## [review online](https://arvancloud.netlify.app/)
+## [review online](https://mohammad-zeynali.github.io/clinic-website/)
 
 ---
 ## tips
 
 * fully responsive for mobile, tablet, laptop and desktop
-* Multi page clinic site
+* Multi page clinic website
 
 ---
 ## web development technologies
