@@ -951,6 +951,7 @@ body{
 
 .form_chose-doctor {
     color: #8D8E92;
+    background: #ffffff;
     border: none;
     outline: none;
     width: 100%;
@@ -964,6 +965,7 @@ body{
 
 .form__input{
     color: #8D8E92;
+    background: #ffffff;
     border: none;
     outline: none;
     border-radius: .5rem;
