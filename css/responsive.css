@@ -98,6 +98,7 @@
     /* Responsive page contact */
     .contact-content-item-desc__text{
         font-size: 1rem;
+        word-break: break-all;
     }
 
     .contact-content-item-one{
@@ -446,5 +447,26 @@
     .features-content-icon-items {
         flex-direction: column;
         justify-content: center;
+    }
+    
+    /* Responsive testimonial */
+    .testimonial-arrow {
+        display: none;
+    }
+
+
+    /* Responsive Appointment */
+    .Appointment-content-left-contact {
+        display: flex;
+        padding: 2rem;
+    }
+
+    .Appointment-content-left-contact-desc__title {
+        font-size: 1rem;
+        word-break: break-all;
+    }
+
+    .Appointment-content-left-contact-desc__text {
+        font-size: 0.9rem;
     }
 }
