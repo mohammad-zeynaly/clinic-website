@@ -384,15 +384,16 @@
     .header-content-left-props{
         justify-content: center;
         flex-direction: column;
+        text-align: center;
     }
 
     
     .header-content-left-property {
-        padding-right: 0; 
+        width: 8.5rem;
         margin: 1.5rem auto;
-
+        padding-right: 0;
+        padding-left: 0;
     }
-
 
     .header-content-left__title {
         font-size: 1.8rem;
@@ -453,7 +454,6 @@
     .testimonial-arrow {
         display: none;
     }
-
 
     /* Responsive Appointment */
     .Appointment-content-left-contact {
