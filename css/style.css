@@ -325,6 +325,7 @@ body{
 }
 
 .header-content-left-property{
+    width: 10rem;
     border-left: .1rem solid var(--color-white);
     padding-right: 5rem;
     padding-left: 1rem;
