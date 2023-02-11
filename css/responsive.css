@@ -33,7 +33,7 @@
     /* Responsive services */ 
 
     .services-item {
-         max-width: 29%;
+         max-width: 32%;
     }
 
 
@@ -52,8 +52,7 @@
     /* Responsive Doctors */
 
     .doctors-teams-item {
-        max-width: 22%;
-        margin: 0.7rem;
+        max-width: 23.7%;
     }
 
     .doctors-description__title {
@@ -83,6 +82,10 @@
 
     .form-btn {
         width: 100%;
+    }
+
+    .Appointment-content-right{
+        width: 46%;
     }
 
     .Appointment-content-left__title{
@@ -233,10 +236,17 @@
 
     /* Responsive Services */ 
     .services-item {
-        max-width: 47%;
-        margin:.7rem 0.6rem;
+        max-width: 48.8%;
+        margin-bottom: 1.5rem;
     }
-
+    .services-item:nth-child(3){
+        margin-right: 1rem;
+    }
+    .services-item:nth-child(2),
+    .services-item:nth-child(4),
+    .services-item:nth-child(6){
+        margin-right: 0;
+    }
         /* Responsive Features */
     .features-content{
         flex-direction: column;
@@ -265,9 +275,14 @@
 
     /* Responsive Doctors */
     .doctors-teams-item {
-        max-width: 46%;
+        max-width: 48.8%;
+        margin-bottom: 1.5rem;
     }
 
+    .doctors-teams-item:nth-child(2),
+    .doctors-teams-item:nth-child(4){
+        margin-right: 0;
+    }
 
     /* Responsive Appointment */
 
@@ -328,11 +343,12 @@
 
 
       /* Responsive Services */ 
-      .services-item {
+      .services-item,
+      .services-item:nth-child(3){
         max-width: 100%;
-        margin:.7rem;
+        margin-right: 0;
+        margin-bottom: 1.5rem;
     }
-
 
     .service__title {
         font-size: 2rem;
@@ -346,8 +362,13 @@
 
 
     /* Responsive Doctors */
+    .doctors-teams{
+        flex-direction: column;
+    }
     .doctors-teams-item {
         max-width: 100%;
+        margin-right: 0;
+        margin-bottom: 1.5rem;
     }
 
     .doctors-description__title {
