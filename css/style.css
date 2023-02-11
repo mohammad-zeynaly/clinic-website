@@ -560,15 +560,22 @@ body{
 .services-items{
     display:flex;
     flex-wrap:wrap;
+    margin-top: 2.5rem;
 }
 
 .services-item{
     background-color:var(--color-light);
-    margin: 1rem;
-    max-width: 30%;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    max-width: 32.4%;
     padding: 3rem;
     transition:all .5s;
     height: 100%;
+    border-radius: 5px;
+}
+.services-item:nth-child(3),
+.services-item:nth-child(6){
+    margin-right: 0;
 }
 
 .services-item:hover{
@@ -752,11 +759,18 @@ body{
 }
 
 .doctors-teams-item{
-    max-width: 22%;
+    max-width: 23.9%;
     position: relative;
     transition: all .5s;
     overflow: hidden;
-    margin:1rem;
+    margin-right: 1rem;
+    margin-bottom: 1.5rem;
+}
+.doctors-teams-item:nth-child(4){
+    margin-right: 0;
+}
+.doctors-teams-item:last-child{
+    margin-right: 0;
 }
 
 
@@ -924,7 +938,7 @@ body{
 
 .Appointment-content-right{
     flex: 0 0 auto;
-    width: 45%;
+    width: 47%;
     background-color: var(--color-light);
     margin-left: 2rem;
     padding: 3rem;
