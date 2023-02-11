@@ -109,11 +109,6 @@ body{
     border-radius: 50%;
     font-size:1rem;
 }
-.social__link{
-
-
-}
-
 .social__icon{
     padding: .6rem;
     color:var(--color-primary);
