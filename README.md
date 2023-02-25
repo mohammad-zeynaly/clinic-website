@@ -13,7 +13,7 @@
 ---
 ## web development technologies
 * html 
-* css (css pure + flex box + css grid)
+* css (css pure + flex box)
 * java script (javascript + jquery + owl carousel)
 ---
 ## contact me
