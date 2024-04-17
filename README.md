@@ -2,7 +2,7 @@
 ---
 
 # clinic.com/Eng page front-end
-## [review online](https://mohammad-zeynali.github.io/clinic-website/)
+## [review online](https://mohammad-zeynaly.github.io/clinic-website/)
 
 ---
 ## tips
